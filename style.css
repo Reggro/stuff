@@ -60,7 +60,7 @@ ul.horizontal li a:hover {
 	padding:5px;
 }
 .img {
-	background-image: url(‘image.jpg’);
+	background-image: url('image.jpg');
 	background-size: cover;
 	background-position: center;
 }
