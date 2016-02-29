@@ -2,59 +2,81 @@
 <html lang="en-us">
 	<head>
 		<title></title>
+		<link href="bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body>
-		<div class="responsive">
-			<div class="header">
-				<ul class="horizontal">
-					<li class="uppercase"><a href="chat.php" target="_self" style="background-color:#66CDAA;">live chat</a></li>
-					<li><a href="currency.php" target="_self">Currency $</a></li>
-					<li><a href="make_usr.php" target="_self">Sign In</a></li>
-					<li><a href="login.php" target="_self">My Account</a></li>
-					<li><a href="my_gifts.php" target="_self">My Gifts</a></li>
-					<li><a href="basket.php" target="_self">My Basket</a></li>
-				</ul>
+		<div class="container">
+			<div class="row">
+				<div class="header">
+					<div class="menu">
+						<ul class="list-inline">
+							<li class="text-uppercase"><a href="chat.php" target="_self" style="background-color:#66CDAA;">live chat</a></li>
+							<li><a href="currency.php" target="_self">Currency $</a></li>
+							<li><a href="make_usr.php" target="_self">Sign In</a></li>
+							<li><a href="login.php" target="_self">My Account</a></li>
+							<li><a href="my_gifts.php" target="_self">My Gifts</a></li>
+							<li><a href="basket.php" target="_self">My Basket</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="section">
-				<table style="width:100%">
-					<tr>
-						<td><a href="index.html" target="_self"><img src="logo.png." alt="logo" style=""></td>
-						<td>
-							<ul class="horizontal">
-								<li class="uppercase"><a href="shop.php" target="_self">shop</a></li>
-								<li class="uppercase"><a href="collections.php" target="_self">collections</a></li>
-								<li class="uppercase"><a href="gifts.php" target="_self">gifts</a></li>
-								<li class="uppercase"><a href="moodboard.php" target="_self">moodbar</a></li>
-								<li class="uppercase"><a href="blog.php" target="_self">blog</a></li>
-								<li><a href="search.php" target="_self"><img src="search.png." alt="search" style=""></a></li>
-							</ul>
-						</td>
-					<tr>
-				</table>
+			<div class="row">
+				<div class="section">
+					<table style="width:100%">
+						<tr>
+							<td><a href="index.html" target="_self"><img src="logo.png" alt="logo" style=""></td>
+							<td>
+								<div class="menu">
+									<ul class="list-inline">
+										<li class="text-uppercase"><a href="shop.php" target="_self">shop</a></li>
+										<li class="text-uppercase"><a href="collections.php" target="_self">collections</a></li>
+										<li class="text-uppercase"><a href="gifts.php" target="_self">gifts</a></li>
+										<li class="text-uppercase"><a href="moodboard.php" target="_self">moodbar</a></li>
+										<li class="text-uppercase"><a href="blog.php" target="_self">blog</a></li>
+										<li><a href="search.php" target="_self"><img src="search.png" alt="search" style=""></a></li>
+									</ul>
+								</div>
+							</td>
+						<tr>
+					</table>
+				</div>
 			</div>
-			<div class="navigation">
-				<ul class="horizontal">
-					<li class="uppercase"><a href="beds.php" target="_self">beds</a></li>
-					<li class="uppercase"><a href="chairs.php" target="_self">chairs</a></li>
-					<li class="uppercase"><a href="desks.php" target="_self">desks</a></li>
-					<li class="uppercase"><a href="mirrors.php" target="_self">mirrors</a></li>
-					<li class="uppercase"><a href="book_cases.php" target="_self">book cases</a></li>
-					<li class="uppercase"><a href="tables.php" target="_self">tables</a></li>
-					<li class="uppercase"><a href="dressers.php" target="_self">dressers</a></li>
-					<li class="uppercase"><a href="storage.php" target="_self">storage</a></li>
-				</ul>
+			<div class="row">
+				<div class="navigation">
+					<div class="menu">
+						<ul class="list-inline">
+							<li class="text-uppercase"><a href="beds.php" target="_self">beds</a></li>
+							<li class="text-uppercase"><a href="chairs.php" target="_self">chairs</a></li>
+							<li class="text-uppercase"><a href="desks.php" target="_self">desks</a></li>
+							<li class="text-uppercase"><a href="mirrors.php" target="_self">mirrors</a></li>
+							<li class="text-uppercase"><a href="book_cases.php" target="_self">book cases</a></li>
+							<li class="text-uppercase"><a href="tables.php" target="_self">tables</a></li>
+							<li class="text-uppercase"><a href="dressers.php" target="_self">dressers</a></li>
+							<li class="text-uppercase"><a href="storage.php" target="_self">storage</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="article">
-				<ul style="list-style-type:none">
-					<li class="uppercase"><div class="name"><h2>sup</h2></div></li>
-					<li><p>nigga be like</p></li>
-					<li><br></li>
-					<li><p>mellon eating</p></li>
-				</ul>
+			<div class="row">
+				<div class="col-sm-5 col-xs-12">
+					<div class="article">
+						<ul style="list-style-type:none">
+							<li class="text-uppercase"><h2><mark style="background-color:#66CDAA; color:#ffffff;">sup</mark></h2></li>
+							<li><p>nigga be like</p></li>
+							<li><br></li>
+							<li><p>mellon eating</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-7 col-xs-12">
+					<div class="img">
+						<img src="example.jpg" class="img-responsive" alt="example">
+					</div>
+				</div>
 			</div>
-			<div class="img"></div>
 		</div>
 	</body>
 </html>

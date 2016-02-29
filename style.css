@@ -1,35 +1,18 @@
-.responive {
-	float: left;
-	margin: 5px;
-	padding: 15px;
-	width: 100%;
-	height: 300px;
-	border: 1px solid #000000;
-}
-ul.horizontal {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-ul.horizontal li {
-	float: left;
-}
-ul.horizontal li a {
-  
+.menu a {
   color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }	
-ul.horizontal li a:hover {
+.menu li a:hover {
 	background-color: #66CDAA;
 	color: #ffffff;
 }
 @media screen and (min-width: 480px) {
-	ul.horizontal li a {      
+	ul.menu li a {      
 		display: inline-block;
 	}
+	
 }
 .header {
 	height:5%;
@@ -39,28 +22,29 @@ ul.horizontal li a:hover {
 	float:right;
 }
 .section {
+	line-height:50px;
 	text-align:center;
 	padding:5px;
 	float:right;				
 }
 .navigation {
-	line-height:60px;
+	line-height:50px;
 	background-color:#eeeeee;
-	height:100px;
+	width:100%
 	text-align:center;
 	padding:5px;
 	float:left;
 }
 .article {
 	background-color:#eeeeee;
-	height:300px;
-	width:35%;
+	height:341px;
+	width:100%;
 	float:left;
 	margin: 10px;
 	padding:5px;
 }
 .img {
-	background-image: url('image.jpg');
+	background-image: url("example.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -69,7 +53,4 @@ ul.horizontal li a:hover {
 	background-color:#66CDAA;
 	width:20%;
 	text-align:left;
-}
-.uppercase {
-	text-transform: uppercase;
 }
