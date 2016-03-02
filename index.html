@@ -4,6 +4,7 @@
 		<title></title>
 		<link href="bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type=“text/javascript” src=“https://code.jquery.com/jquery-2.2.1.js”></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
@@ -12,7 +13,7 @@
 			<div class="row">
 				<div class="header">
 					<div class="menu">
-						<ul class="list-inline">
+						<ul>
 							<li class="text-uppercase"><a href="chat.php" target="_self" style="background-color:#66CDAA;">live chat</a></li>
 							<li><a href="currency.php" target="_self">Currency $</a></li>
 							<li><a href="make_usr.php" target="_self">Sign In</a></li>
@@ -30,14 +31,17 @@
 							<td><a href="index.html" target="_self"><img src="logo.png" alt="logo" style=""></td>
 							<td>
 								<div class="menu">
-									<ul class="list-inline">
+									<ul>
 										<li class="text-uppercase"><a href="shop.php" target="_self">shop</a></li>
 										<li class="text-uppercase"><a href="collections.php" target="_self">collections</a></li>
 										<li class="text-uppercase"><a href="gifts.php" target="_self">gifts</a></li>
 										<li class="text-uppercase"><a href="moodboard.php" target="_self">moodbar</a></li>
 										<li class="text-uppercase"><a href="blog.php" target="_self">blog</a></li>
-										<li><a href="search.php" target="_self"><img src="search.png" alt="search" style=""></a></li>
+										<li><a id="search" href="javascript:;" onclick="searchBox()"><img id="search" src="search.png" alt="search"></a></li>
 									</ul>
+									<div class="srch">
+										<input id="input" type="text">
+									</div>
 								</div>
 							</td>
 						<tr>
@@ -47,7 +51,7 @@
 			<div class="row">
 				<div class="navigation">
 					<div class="menu">
-						<ul class="list-inline">
+						<ul>
 							<li class="text-uppercase"><a href="beds.php" target="_self">beds</a></li>
 							<li class="text-uppercase"><a href="chairs.php" target="_self">chairs</a></li>
 							<li class="text-uppercase"><a href="desks.php" target="_self">desks</a></li>
@@ -78,5 +82,17 @@
 				</div>
 			</div>
 		</div>
+		<script>
+		function searchBox() {
+			$("#search").on("click", function() {
+				if ("#input").css("display") == "none" {
+					$("#input").css.display.block;
+				}
+				else {
+					$("#input").css.display.none;
+				}
+		 });
+		}
+		</script>
 	</body>
 </html>
