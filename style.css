@@ -27,14 +27,6 @@
 	padding:5px;
 	float:right;				
 }
-.navigation {
-	line-height:50px;
-	background-color:#eeeeee;
-	width:100%
-	text-align:center;
-	padding:5px;
-	float:left;
-}
 .article {
 	background-color:#eeeeee;
 	height:341px;
@@ -57,16 +49,15 @@
   display: inline;
   }
 .srch {
-    font: normal 13px Arial, sans-serif;
-    color: #aaa59d;
-    width: 200px;
-    height: 34px;
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    outline: none !important;
-    border: 0;
-    background: transparent;
-    display:none;
+    font:normal 13px Arial, sans-serif;
+    width:200px;
+    height:34px;
+    margin:0;
+    padding:0;
+    vertical-align:top;
+    right:4em;
+    outline:none !important;
+    border:0;
+    background:transparent;
     position:absolute;
     z-index:10;

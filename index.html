@@ -40,7 +40,7 @@
 										<li><a id="search" href="javascript:;" onclick="searchBox()"><img id="search" src="search.png" alt="search"></a></li>
 									</ul>
 									<div class="srch">
-										<input id="input" type="text">
+										<input id="input" type="text" placeholder="Search">
 									</div>
 								</div>
 							</td>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="navigation">
+				<div class="navbar navbar-default">
 					<div class="menu">
 						<ul>
 							<li class="text-uppercase"><a href="beds.php" target="_self">beds</a></li>
@@ -83,15 +83,14 @@
 			</div>
 		</div>
 		<script>
+		$("#input").css("display", "none");
 		function searchBox() {
-			$("#search").on("click", function() {
-				if (("#input").css("display") == "none") {
-					$("#input").css("display", "block");
-				}
-				else {
-					$("#input").css("display", "none");
-				}
-		 	});
+			if ($("#input").css("display") == "none") {
+				$("#input").css("display", "block");
+			}
+			else {
+				$("#input").css("display", "none");
+			}
 		}
 		</script>
 	</body>
