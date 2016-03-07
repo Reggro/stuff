@@ -50,14 +50,22 @@
   }
 .srch {
     font:normal 13px Arial, sans-serif;
-    width:200px;
-    height:34px;
+    width:151px;
+    height:36px;
     margin:0;
     padding:0;
     vertical-align:top;
-    right:4em;
+    right:2em;
     outline:none !important;
     border:0;
     background:transparent;
     position:absolute;
     z-index:10;
+}
+.trngl {
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:0 75.5px 15px 75.5px;
+	border-color:transparent transparent #66CDAA transparent;
+}

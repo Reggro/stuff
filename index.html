@@ -40,6 +40,7 @@
 										<li><a id="search" href="javascript:;" onclick="searchBox()"><img id="search" src="search.png" alt="search"></a></li>
 									</ul>
 									<div class="srch">
+										<div id="gnomehat" class="trngl"></div>
 										<input id="input" type="text" placeholder="Search">
 									</div>
 								</div>
@@ -83,12 +84,15 @@
 			</div>
 		</div>
 		<script>
+		$("#gnomehat").css("display", "none");
 		$("#input").css("display", "none");
 		function searchBox() {
 			if ($("#input").css("display") == "none") {
+				$("#gnomehat").css("display", "block");
 				$("#input").css("display", "block");
 			}
 			else {
+				$("#gnomehat").css("display", "none");
 				$("#input").css("display", "none");
 			}
 		}
